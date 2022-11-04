@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +9,8 @@ import { MaterialDesignsModule } from './material-components/material-designs/ma
 import { ContainerComponent } from './container/container.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DialogComponent } from './dialog/dialog.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ProductlistComponent } from './productlist/productlist.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,7 @@ import { DialogComponent } from './dialog/dialog.component';
     ContainerComponent,
     NavbarComponent,
     DialogComponent,
+    ProductlistComponent,
   ],
   imports: [
     BrowserModule,
@@ -23,6 +26,8 @@ import { DialogComponent } from './dialog/dialog.component';
     FormsModule,
     BrowserAnimationsModule,
     MaterialDesignsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

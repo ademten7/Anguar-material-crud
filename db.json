@@ -1,0 +1,77 @@
+{
+  "productList": [
+    {
+      "productName": "Apple",
+      "category": "Electronics",
+      "freshness": "Brand New",
+      "price": 200,
+      "comment": "Good phone",
+      "date": "2022-11-25T23:00:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Mango",
+      "category": "Fruits",
+      "freshness": "Second Hand",
+      "price": 25,
+      "comment": "Not fresh fruits",
+      "date": "2022-11-21T23:00:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "Samsung",
+      "category": "Electronics",
+      "freshness": "Refurbished",
+      "price": 50,
+      "comment": "Second Hand ",
+      "date": "2022-11-01T23:00:00.000Z",
+      "id": 3
+    },
+    {
+      "productName": "Strawberry",
+      "category": "Vegetables",
+      "freshness": "Brand New",
+      "price": 10,
+      "comment": "Fresh",
+      "date": "2022-11-03T23:00:00.000Z",
+      "id": 4
+    },
+    {
+      "productName": "Salad",
+      "category": "Vegetables",
+      "freshness": "Brand New",
+      "price": 5,
+      "comment": "Fresh",
+      "date": "2022-11-08T23:00:00.000Z",
+      "id": 7
+    },
+    {
+      "productName": "Samsung2",
+      "category": "Electronics",
+      "freshness": "Brand New",
+      "price": 500,
+      "comment": "very nice",
+      "date": "2022-11-14T23:00:00.000Z",
+      "id": 8
+    },
+    {
+      "productName": "Strawberry2",
+      "category": "Fruits",
+      "freshness": "Second Hand",
+      "price": 300,
+      "comment": "yess",
+      "date": "2022-11-06T23:00:00.000Z",
+      "id": 9
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
